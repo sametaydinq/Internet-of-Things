@@ -12,6 +12,8 @@ Proje süresince IoT portalı oluşturmak hedeflendi ve bu hedef doğrultusunda 
 sistemde bulunan cihazların yönetimini ve cihazdan gelen verilerin incelenebildiği temel bir WebAssembly yazılımıdır. 
 Verileri [API](https://github.com/sametaydinq/Internet-of-Things/tree/main/Web/IoTEducation/IoTEducation.API) projesinden sağlamaktadır.
 
+Veri tabanında modül bulunduğu ortamın sıcaklık,nem ve gps verilerini kaydetti.
+
 API projesinin veri tabanı bağlantısı yapılandırma dosyası üzerinden belirlenmektedir.
 ```json
   "ConnectionStrings": {
